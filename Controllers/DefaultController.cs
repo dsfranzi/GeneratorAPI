@@ -9,12 +9,19 @@ using Newtonsoft.Json;
 
 namespace PornTitleGenerator.Controllers
 {
+    public class PornTitle
+    {
+        public string Title { get; set; }
+        public string ButtonText { get; set; }
+    }
+
     public class DefaultController : ApiController
     {
 
-        public Task<string> GetHelloWorld()
+        public Task<PornTitle> GetHelloWorld()
         {
-            return Task.FromResult("Hello World");
+            var test = new PornTitle { Title = "Test", ButtonText = "Test" };
+            return Task.FromResult(test);
         }
 
     }
