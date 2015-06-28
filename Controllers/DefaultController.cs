@@ -6,6 +6,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
 using Newtonsoft.Json;
+using PornTitleGenerator.Data;
 
 namespace PornTitleGenerator.Controllers
 {
@@ -18,10 +19,17 @@ namespace PornTitleGenerator.Controllers
     public class DefaultController : ApiController
     {
 
-        public Task<PornTitle> GetHelloWorld()
+        public async Task<PornTitle> GetHelloWorld()
         {
-            var test = new PornTitle { Title = "Test", ButtonText = "Test" };
-            return Task.FromResult(test);
+            string acceptLanguage = Request.Headers.AcceptLanguage.ToString();
+
+            var nameTask = Task<string>.Factory.StartNew(() => Generator.GetRandomName(acceptLanguage));
+            var titleTask = Task<string>.Factory.StartNew(() => Generator.GetRandomTitle(acceptLanguage));
+
+            string result = string.Concat(await nameTask, " ", await titleTask);
+
+            var pornTitle = new PornTitle { Title = result, ButtonText = Generator.GetRandomButtonText(acceptLanguage) };
+            return pornTitle;
         }
 
     }
