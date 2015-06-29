@@ -19,7 +19,7 @@ namespace PornTitleGenerator.Controllers
     public class DefaultController : ApiController
     {
 
-        public async Task<PornTitle> GetHelloWorld()
+        public async Task<PornTitle> GetSingleTitle()
         {
             string acceptLanguage = Request.Headers.AcceptLanguage.ToString();
 
