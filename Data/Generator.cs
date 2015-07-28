@@ -38,8 +38,8 @@ namespace PornTitleGenerator.Data
                 "Lawrence of Analia", "Long Dong Silver", "Long Ranger",
                 "Midget Bones", "Monty's Python",
                 "Peter Porn", "Pocahotass", "Pornocchio", "Preservoir Dogs",
-                "Rambone", "Robin's Wood", "Robocock",
-                "Screwbacca", "Shercock Holmes", "Sinderella", "Sliderman", "Snatch Adams", "Star Whores",
+                "Rambone", "Robin Head", "Robin's Wood", "Robocock",
+                "Screwbacca", "Shercock Holmes", "Sinderella", "Sliderman", "Snatch Adams", "Star Whores", "Strokemon",
                 "The Ass-Team", "The Big Libidowski", "The Bitcher", "The Bone Ranger", "The Flintbones",
                 "The gAy Team", "The Ozporns", "The Sexorcist", "The Whores Whisperer", "Tiger's Wood",
                 "Wankenstein", "Wonka's Willy"
@@ -48,18 +48,25 @@ namespace PornTitleGenerator.Data
             NameDatabase["de"] = new List<string>
             {
                 "Arschibald der Pornobutler",
-                "Captain Schamerica", 
-                "Der große Ficktator", "Der Mönch mit der Peitsche", "Die Fickinger",
-                "Die Inzestbauern vom Rammlerhof", "Die Schwainzelmännchen", "Dornmöschen",
+                "Captain Rosette", "Captain Schamerica", 
+                "Der große Ficktator", "Der Mönch mit der Peitsche", "Der Nervenkitzler", "Die Fickinger",
+                "Die Inzestbauern vom Rammlerhof", "Die Schwainzelmännchen", "Die Speckbrigade", "Dornmöschen",
                 "Graf Porno",
+                "Häuptling schlaffe Feder", "Häuptling spritzender Speer", "Hausmeister Brause",
                 "Johann Wolfgang von G-Punkt",
                 "Lawrence von Analien", 
-                "Mac Geiler", "Maria mag die Lena", "Moby Fick", 
-                "Onan der Barbar",
-                "Perverseus", 
+                "Mac Geiler", "Maria mag die Lena", "Masturbienchen", "Moby Fick", "Mu Shi",
+                "Ödipussy", "Onan der Barbar",
+                "Perverseus",  "Puffalo Bill",
                 "Räuber Fotzenglotz", 
                 "Scheidi", "Schneebitchchen", "Schneeflittchen", "Schneeritzchen", "Schwänzel und Wedel",
-                "Sündbad der Seepfarrer", 
+                "Spermarella", "Sündbad der Seepfarrer", 
+                "Zacharias Eichelzupf",
+            };
+
+            NameDatabase["en"] = new List<string>
+            {
+                "Oedipussy",
             };
 
             // Titles
@@ -71,16 +78,17 @@ namespace PornTitleGenerator.Data
                 "- Ass Effect", 
                 "- Bangnam Style", "- Bone Voyage", "- Bonerlands", "- Boning John Malkovich",
                 "- Call of Booty", "- Cocklateral Damage", "- Cuntsino Royale",
-                "- Director's Fuck", "- Dongnam Style",
+                "- Dildorado", "- Director's Fuck", "- Dongnam Style",
                 "- Eyes Wide Slut",
-                "- Fist Club", "- For Your Ass Only",
+                "- Fill Jill", "- Fist Club", "- For Your Ass Only", "- Fuck Stop",
                 "- Gay's Anatomy", "- Good Will Humping", "- Great Sexpectations",
                 "- Insextion",
+                "- Lord of the Strings",
                 "- Mass Errect", "- Metal Cock Solid", "- Modern Whorefare",
                 "- Night of the giving head",
-                "- Pleasure Hunt", "- Pleasure Island", "- Position Impossible", 
+                "- Pleasure Hunt", "- Pleasure Island", "- Pornflakes", "- Position Impossible", 
                 "- Red Head Redemption",
-                "- Sleeping Booty", "- Steppenbrand am Rosettenrand",
+                "- Sleeping Booty", 
                 "- The Fappening", "- The Porn Identity", "- The Screwman Show", "- The Sexperiment", "- The Truman Blow",
                 "- The Wanking Dead", "- To Thrill A Cockingbird",
                 "- Weapons of Ass Destruction", "- Whores of Warcraft",
@@ -91,26 +99,44 @@ namespace PornTitleGenerator.Data
 
             TitleDatabase["de"] = new List<string>
             {
-                "- Alarm im Darm", "- Analstufe Rot", "- Aufstand in der Lederhose",
-                "- Bundesjungfernspiele", 
-                "- Darmageddon", "- Das Besteigen der Lämmer", 
-                "- Der Analschlag", "- Der Pimmel über Berlin", "- Drei Schwengel für Charlie",
-                "- Eine für alle, alle in einer", "- Eiskalte Schwengel", 
+                "- Alarm im Darm", "Alpensahne", "- Analstufe Rot", "- Auf Schloss Bumms klappern die Nüsse", 
+                "- Aufstand in der Lederhose", "- Aus heiterem Pimmel",
+                "- Blast die Hörner!", "- Bube sticht Dame", "- Bundesjungfernspiele", 
+                "- Darmageddon", "- Das Arschiv", "- Das Besteigen der Lämmer", 
+                "- Der Analschlag", "- Der Feuerbusch", "- Der Pimmel über Berlin", "- Der Weltenfummler", 
+                "- Die Entsaftung des Quarterbacks",
+                "- Drei Schwengel für Charlie", "- Doktorspiele",
+                "- Ein Platz an der Nonne", "- Eine für alle, alle in einer", "- Eiskalte Schwengel", 
+                "- Exzesse einer Nacktschwester",
+                "- Frühstück bei Fickany", "- Fuckeln im Sturm",
                 "- Hör mal wer da nagelt",
-                "- Im Körper des Feindes", 
+                "- Im ganzen Streifen keinen Steifen", "- Im Körper des Feindes", "- Invasion der Marsmösen",
                 "- Jetzt wirds spritzig",
-                "- Neues vom Sündenhof", 
+                "- Liebesspiel mit Besenstiel",
+                "- Mach's mir schnell, es wird schon hell!",
+                "- Nachbars Schaft", "- Neues vom Sündenhof",  "- Nicht schön, aber saugeil!",
+                "- Operation Rohrfrei",
                 "- Pulp Fickschön",
-                "- Sauerei auf der Bounty", "- Schamlos in Seattle", "- Schwanz der Vampire", 
-                "- Skandal im Oral Office", "- Strip Langsam",
+                "- Rhein Inn Main Po",
+                "- Sauerei auf der Bounty", "- Schamlos in Seattle", "- Schwanz der Vampire", "- She-M@le für dich",
+                "- Skandal im Oral Office", "- Spermacolada", "- Spermal den Mund auf", "- Spritzgebäck", "- Steppenbrand am Rosettenrand",
+                "- Stoßgebete", "- Strip Langsam",
+                "- Trommelfeuer aus der Sackkanone",
                 "- Und täglich schmerzt mein Rüssel mir", "- Unterm Dirndl wird gejodelt",
                 "- Unser Skatclub sticht alles!", "- Urlaub am Mösee",
                 "- Wem die Stunde schleckt", 
+                "- Wir kommen schon!",
+                "- Zapf-Säue",
                 "bläst zum Zapfenstreich",
                 "fingert Nemo",
-                "im Ständerland", "in der Schwanzwald Klinik", 
-                "und der Gefangene von Arschpackan", "und die Kammer des Schleckens",
-                "und die wunde Schlampe",
+                "im Schleckerland", "im Ständerland", "im Vögelschutzgebiet", "in der Wichstumsphase", "in der Schwanzwald Klinik", 
+                "und der Gefangene von Arschpackan", "und die Kammer des Schleckens", "und die Spermatologin", 
+                "und die Vögelgrippe", "und die wunde Schlampe",
+            };
+
+            TitleDatabase["en"] = new List<string>
+            {
+                "- You've Got She-M@le",
             };
 
             ButtonDatabase["global"] = new List<string>()
@@ -143,7 +169,6 @@ namespace PornTitleGenerator.Data
         {
             var localized = dictionary.Where(x => acceptLanguage.Contains(x.Key)).SelectMany(x => x.Value);
             var collection = dictionary["global"].Union(localized).ToList();
-
             return collection.ElementAt(Rand.Next(collection.Count));
         }
 
