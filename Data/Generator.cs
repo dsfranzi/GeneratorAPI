@@ -139,14 +139,14 @@ namespace PornTitleGenerator.Data
                 "- You've Got She-M@le",
             };
 
-            ButtonDatabase["global"] = new List<string>()
+            ButtonDatabase["global"] = new List<string>
             {
-                "Push me!", "Aaaah!",
+                "Push me!", "Aaaah!", "Who's your daddy?", "Yes! Right there!",
             };
 
-            ButtonDatabase["de"] = new List<string>()
+            ButtonDatabase["de"] = new List<string>
             {
-                "Gib mir mehr!", "Soooo isch lässig!", "Härter!", "Fester!",
+                "Gib mir mehr!", "Soooo isch lässig!", "Härter!", "Fester!", "Joooo!",
             };
         }
 
