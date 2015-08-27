@@ -26,7 +26,7 @@ namespace PornTitleGenerator.Data
             {
                 "Al Caporno", "Alfred Fistcock", "Analdin", "Analice", "Anustasia",
                 "Bang Hur", "Beverly Hills Cock", "Biocock", "Black Booty", "Butt Spencer", "Buttman",
-                "Choke-A-Hontas", "Cliffbanger", "Cockzilla",
+                "Choke-A-Hontas", "Cliffbanger", "Cockodile Dundee", "Cockzilla",
                 "Diablow", "Dickman", "Donald Suck", "Dwayne \"The Cock\" Johnson",
                 "Ejacula",
                 "Ficky Mouse", "Flesh Gordon", "Forrest Cunt", "Fuckleberry Hinn", "Fucky Luke",
@@ -40,7 +40,7 @@ namespace PornTitleGenerator.Data
                 "Peter Porn", "Pocahotass", "Pornocchio", "Preservoir Dogs",
                 "Rambone", "Robin Head", "Robin's Wood", "Robocock",
                 "Screwbacca", "Shercock Holmes", "Sinderella", "Sliderman", "Snatch Adams", "Star Whores", "Strokemon",
-                "The Ass-Team", "The Big Libidowski", "The Bitcher", "The Bone Ranger", "The Flintbones",
+                "The Analigator", "The Ass-Team", "The Big Libidowski", "The Bitcher", "The Bone Ranger", "The Flintbones",
                 "The gAy Team", "The Ozporns", "The Sexorcist", "The Whores Whisperer", "Tiger's Wood",
                 "Wankenstein", "Wonka's Willy"
             };
@@ -99,7 +99,7 @@ namespace PornTitleGenerator.Data
 
             TitleDatabase["de"] = new List<string>
             {
-                "- Alarm im Darm", "Alpensahne", "- Analstufe Rot", "- Auf Schloss Bumms klappern die Nüsse", 
+                "- Alarm im Darm", "- Alpensahne", "- Analstufe Rot", "- Auf Schloss Bumms klappern die Nüsse", 
                 "- Aufstand in der Lederhose", "- Aus heiterem Pimmel",
                 "- Blast die Hörner!", "- Bube sticht Dame", "- Bundesjungfernspiele", 
                 "- Darmageddon", "- Das Arschiv", "- Das Besteigen der Lämmer", 
